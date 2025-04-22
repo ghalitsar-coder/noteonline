@@ -14,3 +14,26 @@ Anywhere                   DENY        192.168.1.15
 2200/tcp (v6)              ALLOW       Anywhere (v6)             
 22/tcp (v6)                ALLOW       Anywhere (v6)             
 Nginx HTTP (v6)            ALLOW       Anywhere (v6)  
+
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.15  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 2001:448a:3024:24ed:a00:27ff:fe17:98da  prefixlen 64  scopeid 0x0<global>
+        inet6 2001:448a:3024:24ed:1ffd:6426:affe:4874  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::a00:27ff:fe17:98da  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:17:98:da  txqueuelen 1000  (Ethernet)
+        RX packets 51378  bytes 51769485 (49.3 MiB)
+        RX errors 0  dropped 1085  overruns 0  frame 0
+        TX packets 32617  bytes 5130814 (4.8 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 10  bytes 580 (580.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10  bytes 580 (580.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
